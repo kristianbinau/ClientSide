@@ -1,0 +1,252 @@
+
+/* Top navigation-bar */
+.topnav {
+    background-color: #333333;
+    overflow: hidden;
+}
+#logo{
+    height: 80px;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.active {
+    background-color: #333333   ;
+    color: red;
+}
+
+/* Middle navigation-bar */
+.midnav {
+    background-color: #333333;
+    overflow: hidden;
+    border-top: 1px dashed gray;
+}
+.text{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.search{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+input.search{
+    float: right;
+    color: #333333;
+    text-align: center;
+    padding: 4px 14px;
+    text-decoration: none;
+    font-size: 17px
+}
+.midnav a.active {
+    background-color: #333333   ;
+    color: red;
+}
+
+/* Lowest navigation-bar */
+.lownav {
+    background-color: #333333;
+    overflow: hidden;
+    border-top: 1px dashed gray;
+}
+.lownav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.lownav input{
+    float: right;
+    color: #333333;
+    text-align: center;
+    padding: 4px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+
+
+div.clientheadermain{
+    background-color: #333333;
+    height: 174px;
+    margin: -8px;
+}
+
+
+
+div.clientfootermain{
+
+    background-color: #333333;
+    height: 70px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -550px;
+    text-align: center;
+}
+
+
+div.clientmainside{
+    width: 800px;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+    margin-top: -15px;
+}
+.colorgrey{
+    color: grey;
+}
+div.headertabel{
+    margin-left: 1350px;
+    margin-top: -90px;
+}
+div.headertabelnav{
+    margin-top: 60px;
+}
+.tablecolorred{
+    color: red;
+
+
+}
+.tablecolorwhite{
+    color: white;
+    font: bold;
+}
+.linjeheadernav{
+    color: grey;
+    margin-bottom: 5px;
+}
+.linjeheadernav2{
+    color: grey;
+    margin-top: -5px;
+}
+.søgefelt{
+    margin-left: 90px;
+
+
+}
+.søg{
+    display: flex;
+    color: white;
+    margin-left: 940px;
+    margin-top: -4px;
+    margin-bottom: -3px;
+}
+.linerow{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: -18px;
+    margin-left: 925px;
+}
+.linnrowsøg{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 1010px;
+}
+.søgeknap{
+    display: flex;
+    margin-top: -22px;
+    margin-left: 1180px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.showall{
+    color: red;
+    display: flex;
+    margin-left: 740px;
+    margin-top: -35px;
+}
+div.mainmain{
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.newsmove{
+    margin-left: 30px;
+    color: red;
+}
+.signinbutton{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+div.vensterdivmain{
+    margin-top: -10px;
+    float: left;
+    width: 390px;
+    height: 440px;
+
+}
+div.højredivmanin{
+    margin-top: -10px;
+    float: right;
+    width: 390px;
+    height: 440px;
+
+}
+.venster1{
+    margin:  0px;
+    margin-left: 5px;
+
+}
+.moveto{
+    color: red;
+    margin-left: 5px;
+    margin: 0px;
+    margin-bottom: 30px;
+
+}
+.movievenster{
+    margin-left: -130px;
+    margin-top: 20px;
+
+}
+.moviehøjre{
+    display: flex;
+    margin-left: -80px;
+    margin-top: 30px;
+
+}
+.movetitel{
+    color: red;
+    display: flex;
+    margin-top: -100px;
+    margin-left: -1px;
+}
+.movemovi2{
+    color: red;
+    display: flex;
+    margin-top: -100px;
+    margin-left: -1px;
+
+}
+
+.showallmove{
+    display: flex;
+    color: red;
+    margin-top: -20px;
+    margin-right: -50px;
+}
